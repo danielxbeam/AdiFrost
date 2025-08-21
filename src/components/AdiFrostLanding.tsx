@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react'; 
+import Image from 'next/image';
 import { ChevronDown, Phone, Mail, MapPin, Star, Menu, X, MessageCircle } from 'lucide-react';
 
 const AdiFrostLanding = () => {
@@ -397,6 +398,24 @@ const AdiFrostLanding = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Founder Section */}
+      <section className="py-20 bg-blue-50">
+        <div className="max-w-3xl mx-auto px-4 text-center">
+            <Image
+              src="/images/IMG_20201029_055023.jpg"
+              alt="Bang Adi - Founder AdiFrost"
+              width={224}
+              height={224}
+              className="mx-auto w-56 h-56 object-cover object-center rounded-full shadow-lg mb-6 border-4 border-blue-300"
+            />
+            <h3 className="text-2xl font-bold text-blue-700 mb-2">Bang Adi</h3>
+            <p className="italic text-lg text-gray-700 mb-4">
+              &quot;Aku masih tahan dengan dinginnya es batuku, tapi tidak dengan dinginnya sikapmu kepadaku 🥶🧊&quot;
+            </p>
+            <span className="text-gray-500">- Dieng, 2020</span>
+          </div>
       </section>
 
       {/* Footer */}
