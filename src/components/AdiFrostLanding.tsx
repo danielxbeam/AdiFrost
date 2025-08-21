@@ -310,7 +310,7 @@ const AdiFrostLanding = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">Telepon</p>
-                    <p className="text-gray-600">+62 812-3456-7890</p>
+                    <p className="text-gray-600">+62 813-9272-8274</p>
                   </div>
                 </div>
                 
@@ -320,7 +320,7 @@ const AdiFrostLanding = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-800">WhatsApp</p>
-                    <p className="text-gray-600">+62 812-3456-7890</p>
+                    <p className="text-gray-600">+62 813-9272-8274</p>
                   </div>
                 </div>
 
@@ -423,9 +423,9 @@ const AdiFrostLanding = () => {
             <div>
               <h4 className="font-semibold mb-4">Kontak</h4>
               <div className="space-y-2 text-gray-300">
-                <p>+62 812-3456-7890</p>
+                <p> +62 813-9272-8274</p>
                 <p>info@adifrost.com</p>
-                <p>Jakarta, Indonesia</p>
+                <p>Polanharjo, Indonesia</p>
               </div>
             </div>
           </div>
